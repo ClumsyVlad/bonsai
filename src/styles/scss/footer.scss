@@ -1,0 +1,62 @@
+.footer {
+    background-color: $brand-dark;
+    border: none;
+    box-sizing: border-box;
+    flex-shrink: 0;
+
+    .created-by {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 5px 0px 10px;
+        color: $brand-orange;
+        font-size: 14px;
+        
+            .created-by-autor {
+                padding-left: 10px;
+                &:hover {
+                animation: bounce 0.7s;
+                }
+            }
+        
+
+        .created-by-name {
+            font-size: 18px;
+            font-weight: 700;
+        }       
+    }
+}
+
+.footer-nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 500px) {
+        flex-direction: column;
+    }
+
+    .footer-nav-menu-item {
+        display: flex;
+        text-align: center;
+        vertical-align: middle;
+        position: relative;
+        padding: 20px 0px;
+        width: 100%;
+
+        @media screen and (max-width: 500px) {
+            & {
+                padding: 10px;
+            }
+        }
+
+        & .footer-nav-link {
+            width: 100%;
+        }
+    }
+}

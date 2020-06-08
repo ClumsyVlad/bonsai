@@ -1,0 +1,202 @@
+.header-wrapper {
+    background-color: $brand-dark;
+    border-bottom: 2px solid $brand-orange;
+}
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 20px 5px;
+}
+
+.header-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    transition: 3s;
+
+    @media screen and (max-width: 800px) {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-logo img{ 
+        height: 100px;
+        width: auto;
+    }
+}
+
+.header-brand:hover {
+
+    .header-logo img{
+        animation: spinlogo 1s cubic-bezier(0.445, 0.050, 0.550, 0.950);
+    }
+
+    .brand-name, .sub-slogan {
+        transition: 0.3s;
+        color: $brand-orange;
+    }
+}
+.brand-slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100%;
+
+    .brand-name {
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 5px;
+        font-weight: bolder;
+        color: $brand-gray;
+        transition: 0.3s;
+    }
+
+    .sub-slogan {
+        text-transform: uppercase;
+        font-size: 10px;
+        letter-spacing: 2px;
+        word-spacing: 22px;
+        margin-top: 5px;
+        color: $brand-gray;
+        transition: 0.3s;
+
+        @media screen and (max-width: 500px) {
+            display: none;
+        }
+    }
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+
+    .header-menu-list {
+        display: inline-flex;
+        list-style: none;
+        .header-menu-list-item:not(:first-child) {
+            margin-left: 20px;
+        }
+        .header-menu-list-item .header-menu-list-item-link {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+}
+
+/* Burger menu brakepoint */
+.header-menu-burger {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .header-nav {
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .header-menu-burger {
+        display: block;
+        text-align: center;
+        position: relative;
+        color: $brand-blue;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 2px 0;
+        z-index: 2;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover {
+            color: $brand-orange;
+
+            &:after,
+            &:before {
+                background-color: $brand-orange;
+            }
+        }
+        &:after,
+        &:before {
+            content: '';
+            width: 100%;
+            height: 2px;
+            position: absolute;
+            background-color: $brand-blue;
+            transition: 0.5s;
+        }
+        &:after {
+            top: 0;
+            left: 0;
+        }
+        &:before {
+            bottom: 0;
+            left: 0;
+        }
+    }
+
+    .header-menu .header-menu-list {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: -100%;
+        right:0;
+        bottom: 0;
+        left: 0;
+        background-color: $brand-dark;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 0px;
+        z-index: 2;
+        border-bottom: 5px solid $brand-orange;
+        transition: 0.5s;
+
+        .header-menu-list-item:not(:first-child) {
+            margin-left: 0px;
+        }
+        &.header-menu-list-active {
+            top: 0;
+        }
+    }
+
+    .header-menu-burger.header-menu-burger-active {
+        color: transparent;
+        transition: 0.2s;
+
+        &:hover {
+            &:after,
+            &:before {
+                background-color: $brand-blue;
+            }
+        }
+
+        &:after,
+        &:before {
+            background-color: $brand-orange;
+            
+            
+        }
+        &:after {
+            transform: rotate(45deg);
+            top: 45%;
+        }
+        &:before {
+            transform: rotate(-45deg);
+            bottom: 45%;
+        }
+    }
+}
