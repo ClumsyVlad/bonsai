@@ -24,12 +24,6 @@ function images() {
         .pipe(gulp.dest('./dist/images/'))
 };
 
-function phpBuild() {
-    return gulp.src('./src/php/*.php')
-        .pipe(gulp.dest('./dist/php/'))
-        .pipe(browserSync.stream())
-};
-
 function htmlBuild() {
     return gulp.src('./src/*.html')
         .pipe(rigger())
@@ -39,7 +33,7 @@ function htmlBuild() {
 
 function scriptsBuild() {
     return gulp.src('./src/js/*.js')
-        // .pipe(uglify())
+        .pipe(uglify())
         .pipe(gulp.dest('./dist/js/'))
         .pipe(browserSync.stream())
 };
@@ -73,7 +67,6 @@ function watch () {
     gulp.watch ('./src/**/*.scss', series (sassBuild, prefixMin));
     gulp.watch ('./src/**/*.css', prefixMin);
     gulp.watch ('./src/**/*.html', htmlBuild);
-    gulp.watch ('./src/**/*.php', phpBuild);
     gulp.watch ('./src/**/*.js', scriptsBuild);
     gulp.watch ('./src/imgs/*', images);
 };
@@ -89,7 +82,6 @@ function buildgit () {
 }
 
 exports.images = images;
-exports.phpBuild = phpBuild;
 exports.htmlBuild = htmlBuild;
 exports.scriptsBuild = scriptsBuild;
 exports.sassBuild = sassBuild;
@@ -99,8 +91,8 @@ exports.mediaBuild = series(images);
 exports.styleBuild = series (sassBuild, prefixMin);
 exports.build = series(images, htmlBuild, scriptsBuild, sassBuild, prefixMin);
 exports.watch = watch;
-exports.magic = series(images, phpBuild, htmlBuild, scriptsBuild, sassBuild, prefixMin, watch); 
+exports.magic = series(images, htmlBuild, scriptsBuild, sassBuild, prefixMin, watch); 
 
 exports.cleangit = cleangit;
 exports.buildgit = buildgit;
-exports.demogit = series(cleangit, buildgit);
+exports.demogit = series(cleangit, buildgit); /*Clean dist folder and build new folder for publishing*/
