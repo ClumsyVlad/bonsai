@@ -1,0 +1,34 @@
+.body {
+    display: grid;
+    grid-template-rows: 1fr 15px;
+    grid-template-columns: 60px 1fr;
+    grid-template-areas: 
+        "navbar content"
+        "footer footer";
+}
+.header {
+    display: grid;
+    grid-area: navbar;
+    padding: 20px 10px;
+
+    /*test*/
+    h1 {
+        transform: rotate(180deg);
+        writing-mode: tb-rl;
+        text-align: center;
+    }
+    // test
+}
+.footer {
+    display: grid;
+    grid-area: footer;
+    /*test*/
+    span {
+        font-size: 10px;
+        text-align: center;
+    }
+    // test
+}
+.main {
+    padding: 50px 25px 25px;
+}

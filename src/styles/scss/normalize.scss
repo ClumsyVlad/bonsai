@@ -6,7 +6,7 @@
 
 p, input, span {
   font-family: 'Open Sans', sans-serif;
-  color: $brand-dark;
+  color: $light;
 }
 
 html, body {
@@ -19,7 +19,7 @@ html {
   -webkit-text-size-adjust: 100%;
   margin: 0px;
   padding: 0px;
-  color: $brand-dark;
+  color: $light;
 }
 
 main {
@@ -28,8 +28,6 @@ main {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   margin: 0px;
   padding: 0px;
   font-family: 'Open Sans', sans-serif;
@@ -46,32 +44,27 @@ h1 {
   text-transform: uppercase;
   padding-bottom: 20px;
   font-size: 24px;
-  color: $brand-dark;
 }
 h2 {
   font-weight: 800;
   text-transform: uppercase;
   padding-bottom: 20px;
   font-size: 22px;
-  color: $brand-dark;
 }
 h3 {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 20px;
-  color: $brand-dark;
 }
 
 h4 {
   font-weight: 600;
   font-size: 18px;
-  color: $brand-dark;
 }
 
 h5 {
   font-weight: 600;
   font-size: 16px;
-  color: $brand-dark;
 }
 
 ul {
@@ -89,7 +82,6 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0px;
-  color: $brand-dark;
 }
 
 a {
