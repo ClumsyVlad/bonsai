@@ -1,0 +1,559 @@
+#form-with-slider{
+    font-family: "Open Sans", Arial, sans-serif;
+    text-align: center;
+    font-size:.9em;
+    color: #666;
+}
+#form-with-slider h1{
+    font-size: 1.3em;
+    color: #fff !important;
+    font-weight: 600;
+    background-color: #005ca9;
+    padding: 8px 15px 0;
+    box-shadow: 0px 3px 5px #aaa;
+    min-height: 50px;
+    line-height: 1.1em !important;
+    margin: 0;
+}
+#form-with-slider h1 span{
+    font-size: 0.75em !important;
+    font-weight: normal;
+    display: block;
+}
+#form-with-slider h1.final{
+    background-color: #56a853;
+    height: 73px;
+	line-height: 1.3em !important;
+}
+#form-with-slider h3{
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 1.15em;
+}
+#form-with-slider h3.final, #form-with-slider h3.final2{
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+#form-with-slider h3.final{
+    font-size: 1em;
+	line-height: 1.2em;
+}
+#simuv2 h3.final2{
+    font-size: 1.25em;
+}
+.swiper-container {
+    max-width: 310px;
+    background-color: #f3f7fa;
+    border-radius: 5px;
+}
+.swiper-wrapper {
+    background-color: #f3f7fa;
+}
+.slide {
+    width: 310px;
+    margin: 0 auto;
+    max-width: 310px;
+    text-align: center;
+    background-color: #f3f7fa;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.slide .content{
+    display: inline-block;
+}
+.slide .content, .slide .backk{
+    line-height: normal;
+}
+.slide .backk{
+    text-align: left;
+    color: #999;
+    margin: 5px 0 0 5px;
+	cursor: pointer;
+}
+.slide .backk:hover{
+    color: #666;
+}
+.slide input[type="checkbox"], .slide input[type="radio"]{
+    display: none;
+}
+.slide input[type="text"]{
+    width:220px;
+    height: 55px;
+    padding: 0 20px;
+    margin-bottom: 25px;
+    box-shadow: 2px 4px 6px #ccc;
+    border-radius : 50px;
+    font-size: 1em;
+    border: none;
+    outline: none;
+}
+.slide.p_coords input[type="text"]{
+    height: 40px;
+    margin-bottom: 13px;
+}
+.slide.p_coords .lastfield{
+    margin-bottom: 15px !important;
+}
+.slide label{
+    transition: border-radius 0.25s ease-out;
+}
+.slide label.age_maison.square {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide label.rect{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 240px;
+    height: 55px;
+    line-height: 50px;
+    box-shadow: 2px 4px 6px #ccc;
+    border-radius: 8px;
+    padding: 0 10px;
+    margin: 10px auto 25px;
+    font-size: 1.2em;
+}
+.slide input[type="radio"]:checked+label.rect, .slide input[type="checkbox"]:checked+label.rect, .slide label.rect:hover, .slide label.rect.active{
+    line-height: 46px;
+    border-radius: 50px !important;
+}
+.slide input[type="radio"]:checked+label.profession, .slide label.profession:hover{
+    line-height: 46px;
+}
+.slide label.profession{
+	height: 50px;
+    line-height: 50px;
+	margin: 10px auto 35px;
+}
+.slide label.profession.last{
+	margin: 10px auto 25px;
+}
+.slide label.rect.withpic{
+    width: 240px;
+    padding: 0 10px 0 90px;
+    margin: 35px auto;
+    font-size: 1.2em;
+}
+.slide.p_infos label.rect.withpic{
+    margin: 0 auto 20px;
+}
+.slide.p_offres label.rect.withpic{
+    width: 300px;
+    padding: 0 10px 0 70px;
+    margin: 14px auto;
+    font-size: 1.05em;
+    height: 58px;
+    line-height: 54px;
+}
+.slide.p_offres label.rect.withpic sup{
+    bottom: 0.5em;
+    font-size: 0.6em;
+}
+.slide.p_offres input[type="checkbox"]:checked+label.rect.withpic, .slide.p_offres label.rect.withpic:hover, .slide.p_offres label.rect.withpic.active{
+    line-height: 51px;
+}
+.slide label.square{
+    display: inline-block;
+    width: 80px;
+    height: 73px;
+    box-shadow: 2px 4px 6px #ccc;
+    border-radius: 8px;
+    padding: 0px;
+    margin: 0 20px 30px;
+    vertical-align: top;
+}
+.slide label.age_maison{
+    margin: 0 5px 15px;
+}
+.slide label.square.inside{
+    margin: 0 8px 25px;
+}
+.slide.p_energie label.square{
+    margin: 5px 20px 48px;
+}
+.slide label > span{
+    display: inline-block;
+    line-height: 1.15em;
+    vertical-align: middle;
+    font-weight: 600;
+}
+.slide label {
+    position: relative;
+}
+.slide label.rect:after {
+    position: absolute !important;
+    right: 0;
+    top: 100%;
+}
+.slide label.square:after {
+    position: absolute !important;
+    top: 50%;
+}
+.slide label.cha_chaud.square:after {
+    top: auto;
+}
+.slide label.age_maison.square:after {
+    top: 45%;
+    left: 0%;
+    margin-top: 0;
+}
+.slide label.rect.withpic:after {
+    bottom: 75%;
+    top: auto;
+    right: 0;
+}
+.slide label.square span{
+    padding-top: 80px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+.slide input[type="radio"]:checked+label.square span, .slide input[type="checkbox"]:checked+label.square span, .slide label.square:hover span, .slide label.square.active span{
+    padding-top: 78px;
+}
+.slide label.age_maison span{
+	padding-top: 26px;
+	font-size: 0.90em;
+}
+.slide input[type="radio"]:checked+label.age_maison span, .slide label.age_maison:hover span{
+	padding-top: 26px;
+}
+.slide input[type="radio"]:checked+label.square.inside span, .slide input[type="checkbox"]:checked+label.square.inside span, .slide label.square.inside span{
+    padding-top: 10px;
+    font-size: 1.25em;
+}
+.slide label.square.inside span {
+    padding-top: 20px !important;
+    font-size: 30px !important;
+    color: #666666;
+}
+.slide label.square.inside:hover span {
+    color: #36a947;
+}
+.slide input[type="radio"]:checked+label.square.inside span {
+    color: #36a947;
+}
+.slide.p_cpostal input[type="radio"]:checked+label.square.inside span, .slide.p_cpostal label.square.inside > span{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #666;
+    line-height: 55px;
+}
+.slide.p_infos label.square{
+    height: 65px;
+}
+.slide.p_infos label.square span{
+    line-height: 50px;
+}
+.slide.p_infos input[type="radio"]:checked+label.square span, .slide.p_infos label.square:hover span, .slide.p_infos label.square.active span{
+    line-height: 46px;
+}
+.slide.p_cpostal input[type="radio"]:checked+label.square.inside > span, .slide.p_cpostal label.square.inside:hover > span, .slide.p_cpostal input[type="radio"]:checked+label.square.inside > span span, .slide.p_cpostal label.square.inside:hover > span span{
+    line-height: 51px;
+    color: #36a947;
+}
+.slide.p_cpostal input[type="radio"]:checked+label.square.inside span span, .slide.p_cpostal label.square.inside:hover span span{
+	line-height: calc(1.15em - 4px);
+}
+.slide input[type="radio"]:checked+label, .slide input[type="checkbox"]:checked+label, .slide label:hover, .slide label.active{
+    color: #36a947 !important;
+    border: 2px solid #36a947 !important;
+}
+
+.p_present .content{margin-top: 75px !important;}
+
+#slider_stepper, #progressbar{
+    height: 20px;
+}
+#slider_stepper{
+    background-color: #e1e5e6;
+    box-shadow: 0px -2px 4px #ccc;
+}
+#progressbar{
+    transition: width 0.25s ease-in;
+    width: 40px;
+    text-shadow: 1px 1px 2px #aaa;
+    line-height: 20px;
+    padding: 0 12px 0 5px;
+    border-radius: 0 8px 8px 0;
+    text-align: right;
+    color: #fff;
+    background: linear-gradient(to right, #eec14b, #ebdd4e);
+}
+
+.slide label.lab_occupant{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/proprio-family.svg');}
+.slide label.lab_bailleur{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/proprio-bailleur.svg');}
+.slide label.lab_acquisition{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/achat.svg');}
+.slide label.lab_locataire{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/locataires-family.svg');}
+.slide label.lab_secondaire{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/residence-secondaire.svg');}
+.slide label.lab_autres{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/autre.svg');}
+.slide label.iso_comb, .slide label.offre_comb{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2019/10/picto-combles.svg');}
+.slide label.iso_ite, .slide label.offre_ite{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2019/10/picto-facades.svg');}
+.slide label.iso_sol, .slide label.offre_sol{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2019/10/picto-sols.svg');}
+.slide label.iso_toit, .slide label.offre_toit{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2019/10/picto-toitures.svg');}
+.slide label.cha_pac, .slide label.offre_pac{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/03/picto-pac.svg');}
+.slide label.cha_chaud, .slide label.offre_chaud{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/03/picto-chaudiere.svg');}
+.slide label.ener_fioul{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/07/fioul-icon.svg');}
+.slide label.ener_elec{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/elec-icon.svg');}
+.slide label.ener_ville{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/07/gaz-icon.svg');}
+.slide label.ener_prop{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/gaz-propane-icon.svg');}
+.slide label.ener_bois{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/stove.svg');}
+.slide label.ener_autre{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/autre.jpg');}
+.slide label.age_maison{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/house-icon.svg');}
+
+.slide label.lab_occupant:hover, .slide input[type="radio"]:checked+label.lab_occupant{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/proprio-family-on.svg');}
+.slide label.lab_bailleur:hover, .slide input[type="radio"]:checked+label.lab_bailleur{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/proprio-bailleur-on.svg');}
+.slide label.lab_acquisition:hover, .slide input[type="radio"]:checked+label.lab_acquisition{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/achat-green.svg');}
+.slide label.lab_locataire:hover, .slide input[type="radio"]:checked+label.lab_locataire{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/locataires-family-on.svg');}
+.slide label.lab_secondaire:hover, .slide input[type="radio"]:checked+label.lab_secondaire{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/residence-secondaire-green.svg');}
+.slide label.lab_autres:hover, .slide input[type="radio"]:checked+label.lab_autres{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/autre-green.svg');}
+.slide label.iso_comb:hover, .slide label.offre_comb:hover, .slide input[type="checkbox"]:checked+label.iso_comb, .slide input[type="checkbox"]:checked+label.offre_comb{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/picto-combles-on.svg');}
+.slide label.iso_ite:hover, .slide label.offre_ite:hover, .slide input[type="checkbox"]:checked+label.iso_ite, .slide input[type="checkbox"]:checked+label.offre_ite{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/picto-facades-on.svg');}
+.slide label.iso_sol:hover, .slide label.offre_sol:hover, .slide input[type="checkbox"]:checked+label.iso_sol, .slide input[type="checkbox"]:checked+label.offre_sol{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/picto-sols-on.svg');}
+.slide label.iso_toit:hover, .slide label.offre_toit:hover, .slide input[type="checkbox"]:checked+label.iso_toit, .slide input[type="checkbox"]:checked+label.offre_toit{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/picto-toitures-on.svg');}
+.slide label.cha_pac:hover, .slide label.offre_pac:hover, .slide input[type="radio"]:checked+label.cha_pac, .slide input[type="checkbox"]:checked+label.offre_pac{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/picto-pac-on.svg');}
+.slide label.cha_chaud:hover, .slide label.offre_chaud:hover, .slide input[type="radio"]:checked+label.cha_chaud, .slide input[type="checkbox"]:checked+label.offre_chaud{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/picto-chaudiere-on.svg');}
+.slide label.ener_fioul:hover, .slide input[type="radio"]:checked+label.ener_fioul{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/07/fioul-icon-green.svg');}
+.slide label.ener_elec:hover, .slide input[type="radio"]:checked+label.ener_elec{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/elec-icon-on.svg');}
+.slide label.ener_ville:hover, .slide input[type="radio"]:checked+label.ener_ville{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/07/gaz-icon-green.svg');}
+.slide label.ener_prop:hover, .slide input[type="radio"]:checked+label.ener_prop{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/gaz-propane-icon-on.svg');}
+.slide label.ener_bois:hover, .slide input[type="radio"]:checked+label.ener_bois{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/stove-on.svg');}
+.slide label.ener_autre:hover, .slide input[type="radio"]:checked+label.ener_autre{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/autre_on.jpg');}
+.slide label.age_maison:hover, .slide input[type="radio"]:checked+label.age_maison{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/house-icon-on.svg');}
+
+.slide label{
+    box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;
+    background-repeat: no-repeat !important;
+    background-color: #fff !important;
+    font-weight: 600;
+    color: #205fa4;
+}
+.slide label.lab_occupant, .slide label.lab_bailleur, .slide label.lab_acquisition, .slide label.lab_locataire, .slide label.lab_secondaire, .slide label.lab_autres, .slide label.age_maison, 
+.slide input[type="radio"]:checked+label.lab_occupant, .slide input[type="radio"]:checked+label.lab_bailleur, .slide input[type="radio"]:checked+label.lab_acquisition, .slide input[type="radio"]:checked+label.lab_locataire, .slide input[type="radio"]:checked+label.lab_secondaire, .slide input[type="radio"]:checked+label.lab_autres, .slide input[type="radio"]:checked+label.age_maison, 
+.slide label.lab_occupant:hover, .slide label.lab_bailleur:hover, .slide label.lab_acquisition:hover, .slide label.lab_locataire:hover, .slide label.lab_secondaire:hover, .slide label.lab_autres:hover, .slide label.age_maison:hover{
+    background-size: 42px auto;
+}
+.slide label.lab_occupant, .slide label.lab_bailleur, .slide label.lab_acquisition, .slide label.lab_locataire, .slide label.lab_secondaire, .slide label.lab_autres, .slide label.age_maison{
+    background-position: 25px center;
+}
+.slide input[type="radio"]:checked+label.lab_occupant, .slide input[type="radio"]:checked+label.lab_bailleur, .slide input[type="radio"]:checked+label.lab_acquisition, .slide input[type="radio"]:checked+label.lab_locataire, .slide input[type="radio"]:checked+label.lab_secondaire, .slide input[type="radio"]:checked+label.lab_autres, .slide input[type="radio"]:checked+label.age_maison,
+.slide label.lab_occupant:hover, .slide label.lab_bailleur:hover, .slide label.lab_acquisition:hover, .slide label.lab_locataire:hover, .slide label.lab_secondaire:hover, .slide label.lab_autres:hover{
+    background-position: 23px center;
+}
+.slide label.iso_comb, .slide label.iso_ite, .slide label.iso_sol, .slide label.iso_toit, .slide label.cha_pac, .slide label.cha_chaud,
+.slide input[type="checkbox"]:checked+label.iso_comb, .slide input[type="checkbox"]:checked+label.iso_ite, .slide input[type="checkbox"]:checked+label.iso_sol, .slide input[type="checkbox"]:checked+label.iso_toit, .slide input[type="radio"]:checked+label.cha_pac, .slide input[type="radio"]:checked+label.cha_chaud,
+.slide label.iso_comb:hover, .slide label.iso_ite:hover, .slide label.iso_sol:hover, .slide label.iso_toit:hover, .slide label.cha_pac:hover, .slide label.cha_chaud:hover{
+    background-size: 60px auto;
+}
+.slide label.offre_comb, .slide label.offre_ite, .slide label.offre_sol, .slide label.offre_toit, .slide label.offre_pac, .slide label.offre_chaud,
+.slide input[type="checkbox"]:checked+label.offre_comb, .slide input[type="checkbox"]:checked+label.offre_ite, .slide input[type="checkbox"]:checked+label.offre_sol, .slide input[type="checkbox"]:checked+label.offre_toit, .slide input[type="checkbox"]:checked+label.offre_pac, .slide input[type="checkbox"]:checked+label.offre_chaud,
+.slide label.offre_comb:hover, .slide label.offre_ite:hover, .slide label.offre_sol:hover, .slide label.offre_toit:hover, .slide label.offre_pac:hover, .slide label.offre_chaud:hover,
+.slide label.offre_comb.active, .slide label.offre_ite.active, .slide label.offre_sol.active, .slide label.offre_toit.active, .slide label.offre_pac.active, .slide label.offre_chaud.active{
+    background-size: 50px auto;
+}
+.slide label.offre_comb, .slide label.offre_ite, .slide label.offre_sol, .slide label.offre_toit, .slide label.offre_pac, .slide label.offre_chaud{
+    background-position: 15px center;
+}
+.slide input[type="checkbox"]:checked+label.offre_comb, .slide input[type="checkbox"]:checked+label.offre_ite, .slide input[type="checkbox"]:checked+label.offre_sol, .slide input[type="checkbox"]:checked+label.offre_toit, .slide input[type="checkbox"]:checked+label.offre_pac, .slide input[type="checkbox"]:checked+label.offre_chaud,
+.slide label.offre_comb:hover, .slide label.offre_ite:hover, .slide label.offre_sol:hover, .slide label.offre_toit:hover, .slide label.offre_pac:hover, .slide label.offre_chaud:hover,
+.slide label.offre_comb.active, .slide label.offre_ite.active, .slide label.offre_sol.active, .slide label.offre_toit.active, .slide label.offre_pac.active, .slide label.offre_chaud.active{
+    background-position: 13px center;
+}
+.slide label.ener_fioul, .slide label.ener_elec, .slide label.ener_ville, .slide label.ener_prop, .slide label.ener_bois, .slide label.ener_autre,
+.slide input[type="radio"]:checked+label.ener_fioul, .slide input[type="radio"]:checked+label.ener_elec, .slide input[type="radio"]:checked+label.ener_ville, .slide input[type="radio"]:checked+label.ener_prop, .slide input[type="radio"]:checked+label.ener_bois, .slide input[type="radio"]:checked+label.ener_autre,
+.slide label.ener_fioul:hover, .slide label.ener_elec:hover, .slide label.ener_ville:hover, .slide label.ener_prop:hover, .slide label.ener_bois:hover, .slide label.ener_autre:hover,
+.slide label.ener_fioul.active, .slide label.ener_elec.active, .slide label.ener_ville.active, .slide label.ener_prop.active, .slide label.ener_bois.active, .slide label.ener_autre.active{
+    background-size: auto 55px;
+}
+.slide label.square {
+    background-position: center !important;
+}
+.slide label.age_maison, .slide input[type="radio"]:checked+label.age_maison, .slide label.age_maison:hover {
+	background-size: 33px auto;
+}
+.slide label.age_maison {
+    background-position: center 7px !important;
+}
+.slide input[type="radio"]:checked+label.age_maison, .slide label.age_maison:hover {
+    background-position: center 5px !important;
+}
+.slide input[type="radio"]:checked+label:after, .slide input[type="checkbox"]:checked+label:after, .slide label.active:after{
+    content:url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/chek.svg');
+    position: sticky;
+    display: block;
+}
+.slide input[type="radio"]:checked+label.rect:after, .slide label.active.rect:after{
+    margin-top: -60px;
+    transform: translateX(15px);
+}
+.slide input[type="radio"]:checked+label.profession:after{
+	margin-left: 185px;
+}
+.slide.p_revenu input[type="radio"]:checked+label.rect:after, .slide.p_revenu label.active.rect:after{
+    margin-left: 195px;
+}
+.slide.p_offres input[type="checkbox"]:checked+label.rect:after, .slide.p_offres label.active.rect:after{
+    margin-top: -66px;
+    margin-left: 195px;
+}
+.slide input[type="radio"]:checked+label.square:after, .slide input[type="checkbox"]:checked+label.square:after{
+    margin-top: -105px;
+    margin-left: 60px;
+}
+.slide input[type="radio"]:checked+label.square:after {
+    margin-top: -45px;
+}
+.slide input[type="radio"]:checked+label.cha_pac:after, .slide input[type="checkbox"]:checked+label.cha_pac:after{
+    margin-top: -120px;
+}
+.slide.p_cpostal input[type="radio"]:checked+label.square:after, .slide.p_cpostal label.active.square:after{
+    margin-top: -75px;
+    margin-left: 60px;
+}
+.slide.p_infos input[type="radio"]:checked+label.square:after, .slide.p_infos label.active.square:after{
+    margin-top: -70px;
+}
+.slide.p_infos input[type="radio"]:checked+label.age_maison:after, .slide.p_infos label.active.age_maison:after{
+    margin-top: -85px;
+}
+
+#newslet{
+    display: inline-block;
+    margin-left: 5px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #999;
+    vertical-align: -6px;
+}
+#newslet:checked {
+    background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/checked.png') #fff no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.newslabel{
+    display: inline-block;
+    width: 260px;
+    font-size: 0.7em;
+    margin-right: 5px;
+    text-align: left;
+    color: #888;
+}
+.condgen{
+    display: block;
+    padding: 0 20px;
+    font-size: 0.7em;
+    color: #888;
+}
+.confid, .confid2{
+    color: #36a947;
+    font-weight: bold;
+    display: block;
+    margin: 15px 0 10px;
+}
+.confid{
+    font-size: .7em;
+}
+.confid2{
+    font-size: 1em;
+}
+.envoi_progi, .progi_tarif, .trav_next, #intro-suiv{
+    width: 230px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 2px 4px 6px #aaa;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.progi_tarif, .trav_next{
+    width: 150px;
+    display: inline-block;
+    line-height: 50px;
+}
+.envoi_progi{
+	line-height: 50px;
+	display: inline-block;
+}
+.progi_tarif{
+    margin-top: 0;
+}
+.envoi_progi, .trav_next{
+    margin-top: 15px;
+}
+#intro-suiv{
+	width: 280px;
+	font-size: 1em;
+}
+.envoi_progi, #intro-suiv, .progi_tarif:hover, .trav_next:hover{
+    background-color: #36a947;
+}
+.envoi_progi:hover, #intro-suiv:hover, .progi_tarif, .trav_next{
+    background-color: #005ca9;
+}
+.trav_next{
+	margin-top: 25px;
+}
+.progi_tarif{
+	margin-top: 15px;
+}
+
+.reponse_progi1, .reponse_progi2, .reponse_progi3, .reponse_progi4, .reponse_progi5{
+	font-weight: bold;
+}
+.reponse_partenaire{
+	font-size: 7px;
+}
+
+#errorMsg{
+	position: absolute;
+	height: auto;
+	width: 300px;
+	background-color: #FFF;
+	padding: 25px 10px;
+	margin-top: 10px;
+	opacity: 0;
+	margin-left: 10px;
+	border-radius: 7px;
+	color: #f6a200;
+	font-weight: bold;
+	box-shadow: 1px 2px 6px #ccc;
+	transition: all .25s ease-in;
+	z-index: 99999;
+}
+fieldset {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+.agency{
+	font-weight: bold;
+}
+.trav_next.next-disabled {
+    pointer-events: none;
+    background-color: #666666;
+}
+#slider-container.swiper-container-horizontal>.swiper-pagination-progressbar {
+    bottom: 0;
+    top: auto;
+    height: 20px;
+    background-color: #e1e5e6;
+    box-shadow: 0px -2px 4px #ccc;
+}
+#slider-container.swiper-container-horizontal>.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: linear-gradient(to right, #eec14b, #ebdd4e);
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: end;
+    padding: 0px 10px;
+}
