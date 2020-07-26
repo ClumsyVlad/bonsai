@@ -8,7 +8,7 @@
     font-size: 1.3em;
     color: #fff !important;
     font-weight: 600;
-    background-color: #005ca9;
+    background-color: #f35c27;
     padding: 8px 15px 0;
     box-shadow: 0px 3px 5px #aaa;
     min-height: 50px;
@@ -229,10 +229,10 @@
     color: #666666;
 }
 .slide label.square.inside:hover span {
-    color: #36a947;
+    color: #f35c27;
 }
 .slide input[type="radio"]:checked+label.square.inside span {
-    color: #36a947;
+    color: #f35c27;
 }
 .slide.p_cpostal input[type="radio"]:checked+label.square.inside span, .slide.p_cpostal label.square.inside > span{
     font-size: 2.5em;
@@ -251,14 +251,14 @@
 }
 .slide.p_cpostal input[type="radio"]:checked+label.square.inside > span, .slide.p_cpostal label.square.inside:hover > span, .slide.p_cpostal input[type="radio"]:checked+label.square.inside > span span, .slide.p_cpostal label.square.inside:hover > span span{
     line-height: 51px;
-    color: #36a947;
+    color: #f35c27;
 }
 .slide.p_cpostal input[type="radio"]:checked+label.square.inside span span, .slide.p_cpostal label.square.inside:hover span span{
 	line-height: calc(1.15em - 4px);
 }
 .slide input[type="radio"]:checked+label, .slide input[type="checkbox"]:checked+label, .slide label:hover, .slide label.active{
-    color: #36a947 !important;
-    border: 2px solid #36a947 !important;
+    color: #f35c27 !important;
+    border: 2px solid #f35c27 !important;
 }
 
 .p_present .content{margin-top: 75px !important;}
@@ -279,7 +279,7 @@
     border-radius: 0 8px 8px 0;
     text-align: right;
     color: #fff;
-    background: linear-gradient(to right, #eec14b, #ebdd4e);
+    background: #005ca9;
 }
 
 .slide label.lab_occupant{background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/proprio-family.svg');}
@@ -431,7 +431,7 @@
     background: white;
     border-radius: 5px;
     border: 1px solid #999;
-    vertical-align: -6px;
+    vertical-align: -3px;
 }
 #newslet:checked {
     background: url('https://www.les-eco-isolateurs.com/wp-content/uploads/2020/06/checked.png') #fff no-repeat;
@@ -441,7 +441,7 @@
 .newslabel{
     display: inline-block;
     width: 260px;
-    font-size: 0.7em;
+    font-size: 9px;
     margin-right: 5px;
     text-align: left;
     color: #888;
@@ -453,7 +453,7 @@
     color: #888;
 }
 .confid, .confid2{
-    color: #36a947;
+    color: #f35c27;
     font-weight: bold;
     display: block;
     margin: 15px 0 10px;
@@ -495,10 +495,10 @@
 	font-size: 1em;
 }
 .envoi_progi, #intro-suiv, .progi_tarif:hover, .trav_next:hover{
-    background-color: #36a947;
+    background-color: #f35c27;
 }
 .envoi_progi:hover, #intro-suiv:hover, .progi_tarif, .trav_next{
-    background-color: #005ca9;
+    background-color: #f35c27;
 }
 .trav_next{
 	margin-top: 25px;
@@ -550,7 +550,7 @@ fieldset {
     box-shadow: 0px -2px 4px #ccc;
 }
 #slider-container.swiper-container-horizontal>.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-    background: linear-gradient(to right, #eec14b, #ebdd4e);
+    background: #005ca9;
     color: #666666;
     font-size: 14px;
     font-weight: 500;
