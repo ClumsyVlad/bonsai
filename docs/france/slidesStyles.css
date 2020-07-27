@@ -477,6 +477,9 @@
     font-weight: bold;
     cursor: pointer;
 }
+button.envoi_progi {
+    padding: 0px !important;
+}
 .progi_tarif, .trav_next{
     width: 150px;
     display: inline-block;
