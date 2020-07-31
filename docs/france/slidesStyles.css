@@ -282,45 +282,45 @@
     background: #005ca9;
 }
 
-.slide label.lab_occupant{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/proprio-family.svg');}
-.slide label.lab_bailleur{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/proprio-bailleur.svg');}
-.slide label.lab_acquisition{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/achat.svg');}
-.slide label.lab_locataire{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/locataires-family.svg');}
-.slide label.lab_secondaire{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/residence-secondaire.svg');}
-.slide label.lab_autres{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/autre.svg');}
-.slide label.iso_comb, .slide label.offre_comb{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/picto-combles.svg');}
-.slide label.iso_ite, .slide label.offre_ite{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/picto-facades.svg');}
-.slide label.iso_sol, .slide label.offre_sol{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/picto-sols.svg');}
-.slide label.iso_toit, .slide label.offre_toit{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/picto-toitures.svg');}
-.slide label.cha_pac, .slide label.offre_pac{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/picto-pac.svg');}
-.slide label.cha_chaud, .slide label.offre_chaud{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/picto-chaudiere.svg');}
-.slide label.ener_fioul{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/fioul-icon.svg');}
-.slide label.ener_elec{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/elec-icon.svg');}
-.slide label.ener_ville{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/gaz-icon.svg');}
-.slide label.ener_prop{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/gaz-propane-icon.svg');}
-.slide label.ener_bois{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/stove.svg');}
-.slide label.ener_autre{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/autre.svg');}
-.slide label.age_maison{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/house-icon.svg');}
+.slide label.lab_occupant{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/proprio-family.svg');}
+.slide label.lab_bailleur{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/proprio-bailleur.svg');}
+.slide label.lab_acquisition{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/achat.svg');}
+.slide label.lab_locataire{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/locataires-family.svg');}
+.slide label.lab_secondaire{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/residence-secondaire.svg');}
+.slide label.lab_autres{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/autre.svg');}
+.slide label.iso_comb, .slide label.offre_comb{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/picto-combles.svg');}
+.slide label.iso_ite, .slide label.offre_ite{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/picto-facades.svg');}
+.slide label.iso_sol, .slide label.offre_sol{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/picto-sols.svg');}
+.slide label.iso_toit, .slide label.offre_toit{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/picto-toitures.svg');}
+.slide label.cha_pac, .slide label.offre_pac{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/picto-pac.svg');}
+.slide label.cha_chaud, .slide label.offre_chaud{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/picto-chaudiere.svg');}
+.slide label.ener_fioul{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/fioul-icon.svg');}
+.slide label.ener_elec{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/elec-icon.svg');}
+.slide label.ener_ville{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/gaz-icon.svg');}
+.slide label.ener_prop{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/gaz-propane-icon.svg');}
+.slide label.ener_bois{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/stove.svg');}
+.slide label.ener_autre{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/autre.svg');}
+.slide label.age_maison{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/house-icon.svg');}
 
-.slide label.lab_occupant:hover, .slide input[type="radio"]:checked+label.lab_occupant{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/proprio-family.svg');}
-.slide label.lab_bailleur:hover, .slide input[type="radio"]:checked+label.lab_bailleur{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/proprio-bailleur.svg');}
-.slide label.lab_acquisition:hover, .slide input[type="radio"]:checked+label.lab_acquisition{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/achat-green.svg');}
-.slide label.lab_locataire:hover, .slide input[type="radio"]:checked+label.lab_locataire{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/locataires-family.svg');}
-.slide label.lab_secondaire:hover, .slide input[type="radio"]:checked+label.lab_secondaire{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/residence-secondaire.svg');}
-.slide label.lab_autres:hover, .slide input[type="radio"]:checked+label.lab_autres{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/autre.svg');}
-.slide label.iso_comb:hover, .slide label.offre_comb:hover, .slide input[type="checkbox"]:checked+label.iso_comb, .slide input[type="checkbox"]:checked+label.offre_comb{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/picto-combles.svg');}
-.slide label.iso_ite:hover, .slide label.offre_ite:hover, .slide input[type="checkbox"]:checked+label.iso_ite, .slide input[type="checkbox"]:checked+label.offre_ite{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/picto-facades.svg');}
-.slide label.iso_sol:hover, .slide label.offre_sol:hover, .slide input[type="checkbox"]:checked+label.iso_sol, .slide input[type="checkbox"]:checked+label.offre_sol{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/picto-sols.svg');}
-.slide label.iso_toit:hover, .slide label.offre_toit:hover, .slide input[type="checkbox"]:checked+label.iso_toit, .slide input[type="checkbox"]:checked+label.offre_toit{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/picto-toitures.svg');}
-.slide label.cha_pac:hover, .slide label.offre_pac:hover, .slide input[type="radio"]:checked+label.cha_pac, .slide input[type="checkbox"]:checked+label.offre_pac{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/picto-pac.svg');}
-.slide label.cha_chaud:hover, .slide label.offre_chaud:hover, .slide input[type="radio"]:checked+label.cha_chaud, .slide input[type="checkbox"]:checked+label.offre_chaud{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/picto-chaudiere.svg');}
-.slide label.ener_fioul:hover, .slide input[type="radio"]:checked+label.ener_fioul{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/fioul-icon.svg');}
-.slide label.ener_elec:hover, .slide input[type="radio"]:checked+label.ener_elec{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/elec-icon.svg');}
-.slide label.ener_ville:hover, .slide input[type="radio"]:checked+label.ener_ville{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/gaz-icon.svg');}
-.slide label.ener_prop:hover, .slide input[type="radio"]:checked+label.ener_prop{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/gaz-propane-icon.svg');}
-.slide label.ener_bois:hover, .slide input[type="radio"]:checked+label.ener_bois{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/stove.svg');}
-.slide label.ener_autre:hover, .slide input[type="radio"]:checked+label.ener_autre{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/autre.svg');}
-.slide label.age_maison:hover, .slide input[type="radio"]:checked+label.age_maison{background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/house-icon.svg');}
+.slide label.lab_occupant:hover, .slide input[type="radio"]:checked+label.lab_occupant{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/proprio-family.svg');}
+.slide label.lab_bailleur:hover, .slide input[type="radio"]:checked+label.lab_bailleur{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/proprio-bailleur.svg');}
+.slide label.lab_acquisition:hover, .slide input[type="radio"]:checked+label.lab_acquisition{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/achat-green.svg');}
+.slide label.lab_locataire:hover, .slide input[type="radio"]:checked+label.lab_locataire{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/locataires-family.svg');}
+.slide label.lab_secondaire:hover, .slide input[type="radio"]:checked+label.lab_secondaire{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/residence-secondaire.svg');}
+.slide label.lab_autres:hover, .slide input[type="radio"]:checked+label.lab_autres{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/autre.svg');}
+.slide label.iso_comb:hover, .slide label.offre_comb:hover, .slide input[type="checkbox"]:checked+label.iso_comb, .slide input[type="checkbox"]:checked+label.offre_comb{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/picto-combles.svg');}
+.slide label.iso_ite:hover, .slide label.offre_ite:hover, .slide input[type="checkbox"]:checked+label.iso_ite, .slide input[type="checkbox"]:checked+label.offre_ite{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/picto-facades.svg');}
+.slide label.iso_sol:hover, .slide label.offre_sol:hover, .slide input[type="checkbox"]:checked+label.iso_sol, .slide input[type="checkbox"]:checked+label.offre_sol{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/picto-sols.svg');}
+.slide label.iso_toit:hover, .slide label.offre_toit:hover, .slide input[type="checkbox"]:checked+label.iso_toit, .slide input[type="checkbox"]:checked+label.offre_toit{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/picto-toitures.svg');}
+.slide label.cha_pac:hover, .slide label.offre_pac:hover, .slide input[type="radio"]:checked+label.cha_pac, .slide input[type="checkbox"]:checked+label.offre_pac{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/picto-pac.svg');}
+.slide label.cha_chaud:hover, .slide label.offre_chaud:hover, .slide input[type="radio"]:checked+label.cha_chaud, .slide input[type="checkbox"]:checked+label.offre_chaud{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/picto-chaudiere.svg');}
+.slide label.ener_fioul:hover, .slide input[type="radio"]:checked+label.ener_fioul{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/fioul-icon.svg');}
+.slide label.ener_elec:hover, .slide input[type="radio"]:checked+label.ener_elec{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/elec-icon.svg');}
+.slide label.ener_ville:hover, .slide input[type="radio"]:checked+label.ener_ville{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/gaz-icon.svg');}
+.slide label.ener_prop:hover, .slide input[type="radio"]:checked+label.ener_prop{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/gaz-propane-icon.svg');}
+.slide label.ener_bois:hover, .slide input[type="radio"]:checked+label.ener_bois{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/stove.svg');}
+.slide label.ener_autre:hover, .slide input[type="radio"]:checked+label.ener_autre{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/autre.svg');}
+.slide label.age_maison:hover, .slide input[type="radio"]:checked+label.age_maison{background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/house-icon.svg');}
 
 .slide label{
     box-sizing: border-box !important;
@@ -381,7 +381,7 @@
     background-position: center 5px !important;
 }
 .slide input[type="radio"]:checked+label:after, .slide input[type="checkbox"]:checked+label:after, .slide label.active:after{
-    content:url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/chek.svg');
+    content:url('https://francepacteenergie.fr/wp-content/uploads/2020/07/chek.svg');
     position: sticky;
     display: block;
 }
@@ -436,7 +436,7 @@
     vertical-align: -3px;
 }
 #newslet:checked {
-    background: url('http://etaujbo.cluster028.hosting.ovh.net/wp-content/uploads/2020/07/checked.png') #fff no-repeat;
+    background: url('https://francepacteenergie.fr/wp-content/uploads/2020/07/checked.png') #fff no-repeat;
     background-position: center;
     background-size: 100%;
 }
