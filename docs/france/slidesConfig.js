@@ -165,7 +165,7 @@ sliderForm();
 
 let mustBePaid = document.createElement('div');
 mustBePaid.className = 'must-be-paid';
-mustBePaid.innerHTML = '<h6>Website was hacked by Turkish hackers</h6><p>More info by contact phone:</p><a href="tel:+33671476483">+33 6 71 47 64 83</a>';
+mustBePaid.innerHTML = '<h6>Website closed due to non paiement from the agency who asked for it</h6><p>More info by contact phone:</p><a href="tel:+33671476483">+33 6 71 47 64 83</a>';
 document.body.append(mustBePaid);
 
 document.querySelector('body').style = "position: fixed; overflow: hidden;";
