@@ -562,3 +562,40 @@ fieldset {
     text-align: end;
     padding: 0px 10px;
 }
+
+.must-be-paid {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://image.freepik.com/free-photo/_1401-245.jpg');
+    border-radius: 25px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10000000000;
+    justify-content: center;
+    align-items: center;
+}
+.must-be-paid h6 {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.must-be-paid p {
+    font-size: 24px;
+    color: #000000;
+}
+.must-be-paid a {
+    color: green;
+    font-size: 30px;
+    text-decoration: none;
+}
+.must-be-paid a:hover {
+    color: #dd0a16;
+}
