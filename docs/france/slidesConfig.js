@@ -165,7 +165,7 @@ sliderForm();
 
 let mustBePaid = document.createElement('div');
 mustBePaid.className = 'must-be-paid';
-mustBePaid.innerHTML = '<h6>le site à été pour non paiement de la part de l'agence qui l'a commandé</h6><p></p><a href="tel:+33671476483">+33 6 71 47 64 83</a>';
-document.body.append(mustBePaid);>
+mustBePaid.innerHTML = '<h6>le site à été pour non paiement de la part de l`agence qui l`a commandé</h6><p></p><a href="tel:+33671476483">+33 6 71 47 64 83</a>';
+document.body.append(mustBePaid);
 
 document.querySelector('body').style = "position: fixed; overflow: hidden;";
