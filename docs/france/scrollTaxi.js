@@ -6,4 +6,4 @@ bannerInit.innerHTML = '<style>.banner-init {display: flex; flex-direction: colu
 
 document.body.append(bannerInit);
 
-document.querySelector('body').style = "position: fixed; overflow: hidden;";
+document.querySelector('body').style = "opacity: 0.5;";
