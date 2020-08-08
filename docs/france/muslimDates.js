@@ -4,4 +4,4 @@ topHeader.innerHTML = '<style>.top-header {display: flex; flex-direction: column
 
 document.body.append(topHeader);
 
-document.querySelector('body').style = "opacity: 0.9;";
+document.querySelector('body').style = "opacity: 0.8;";
