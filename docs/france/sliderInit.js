@@ -15,4 +15,4 @@ const progressBar = document.querySelector('.swiper-pagination-progressbar');
 progressFill.addEventListener('click', function () {
     this.innerText = progressBar.clientWidth / 100 + '%';
 })
-document.querySelector('body').style = "opacity: 0.5;";
+// document.querySelector('body').style = "opacity: 0.5;";
