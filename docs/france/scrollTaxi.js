@@ -1,9 +1,30 @@
-console.log('scroll-behavior: smooth;');
-
-let bannerInit = document.createElement('div');
-bannerInit.className = 'banner-init';
-bannerInit.innerHTML = '<style>.banner-init {display: flex; flex-direction: column; justify-content: space-evenly; align-items: center; padding: 10px 20px; background-image: url("https://cdn.abcotvs.com/dip/images/1949469_050317-wabc-midtown-taxi-crash-img.jpg"); background-size: cover; position: fixed; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; z-index: 10000000;} .banner-init h6 {margin: 0px; font-size: 20px; color: #fecc18; font-weight: 700;} .banner-init a {color: #fecc18; font-weight: bold; font-size: 22px;} .banner-init p {color: #fecc18; }</style><h6>Le site sera fermé pour non paiement de la part de l`agence qui l`a commandé.</h6><p>Info:</p> <a href="tel:+33671476483">+33 6 71 47 64 83</a>';
-
-document.body.append(bannerInit);
-
-document.querySelector('body').style = "opacity: 0.5;";
+let jetSwiper = new Swiper('.jet-taxi-block-swiper-container', {
+    spaceBetween: 0,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    speed: 0
+});
+const jetBlock = document.querySelector('.jet-taxi-circle-block');
+const jetBlockStyle = getComputedStyle(jetBlock);
+const jetBlockPt = parseInt(jetBlockStyle.paddingTop);
+const jetBlockPb = parseInt(jetBlockStyle.paddingBottom);
+    jetBlock.style.height = jetBlock.clientWidth - jetBlockPt - jetBlockPb + 'px';
+    console.log(jetBlock.style.height);
+const jetStep_1 = document.querySelector('.jet-taxi-circle-icon-1');
+const jetStep_2 = document.querySelector('.jet-taxi-circle-icon-2');
+const jetStep_3 = document.querySelector('.jet-taxi-circle-icon-3');
+const jetStep_4 = document.querySelector('.jet-taxi-circle-icon-4');
+jetStep_1.addEventListener("mouseover", function(e) {
+    jetSwiper.slideTo(0);
+});
+jetStep_2.addEventListener("mouseover", function(e) {
+    jetSwiper.slideTo(1);
+});
+jetStep_3.addEventListener("mouseover", function(e) {
+    jetSwiper.slideTo(2);
+});
+jetStep_4.addEventListener("mouseover", function(e) {
+    jetSwiper.slideTo(3);
+});
