@@ -102,7 +102,7 @@ input {
   display: grid;
   grid-template-rows: 1fr 15px;
   grid-template-columns: 60px 1fr;
-  grid-template-areas: "navbar content" "footer footer"; }
+  grid-template-areas: "navbar content" "footer footer"; }
 
 .header {
   display: grid;
