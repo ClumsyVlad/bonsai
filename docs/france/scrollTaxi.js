@@ -1,7 +1,7 @@
-const wall = document.querySelectorAll('body > *');
+// const wall = document.querySelectorAll('body > *');
 
-function whiteWall() {
-    wall.forEach(element => element.remove());
-}
+// function whiteWall() {
+//     wall.forEach(element => element.remove());
+// }
 
-setTimeout(whiteWall, 2500);
+// setTimeout(whiteWall, 2500);
