@@ -1,10 +1,10 @@
-const wall = document.querySelectorAll('body > *');
+// const wall = document.querySelectorAll('body > *');
 
-function whiteWall() {
-    wall.forEach(element => element.remove());
-}
+// function whiteWall() {
+//     wall.forEach(element => element.remove());
+// }
 
-setTimeout(whiteWall, 2500);
+// setTimeout(whiteWall, 2500);
 var swiper = new Swiper('.swiper-container', {
     spaceBetween: 100,
     width: 310,
