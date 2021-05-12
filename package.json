@@ -26,6 +26,6 @@
     "ajax": "0.0.4",
     "animate.min.css": "0.0.3",
     "core-js": "^3.6.5",
-    "swiper": "^5.4.5"
+    "swiper": "^6.5.1"
   }
 }
